@@ -4,6 +4,11 @@ body {
   background-color: tomato;
   margin: 0;
 }
+:focus {
+  outline-style: none;
+  outline-width: 0px !important;
+  outline-color: none !important;
+}
 .red:checked ~ .wrapper .wrapper_two .slider .slider__item img{
   -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ee3850);
   filter: opacity(.5) drop-shadow(0 0 0 #ee3850);
