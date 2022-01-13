@@ -55,23 +55,20 @@
   }
   .slider .slick-arrow.slick-prev {
     left: 0;
-    background: url("../img/left.png") no-repeat;
-    transform: rotate(135deg);
-    margin-left: 20px;
-    background-size: cover;
+    background: url("../img/left.svg") no-repeat;
+    padding-top: 30px;
   }
   .slider .slick-arrow.slick-next {
     right: 0;
-    background: url("../img/right.png") 0 0 / 100% no-repeat;
-    transform: rotate(-135deg);
-    margin-right: 20px;
+    background: url("../img/right.svg") no-repeat;
+    padding-top: 30px;
   }
   .slider__item {
     display: flex;
     text-align: center;
     justify-content: center;
-    max-width: 90px;
-    max-height: 174px;
+    width: 90px;
+    height: 174px;
     margin: 0 40px;
   }
   .slider__item img {
@@ -92,7 +89,7 @@
     line-height: 97.19%;
     text-align: center;
     color: #7a9eaf;
-    padding-top: 30px;
+    padding-top: 25px;
   }
   input[type="radio"] {
     position: absolute;
