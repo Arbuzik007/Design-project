@@ -8,7 +8,7 @@ $(document).ready(function(){
 		infinite:true,//бесконечность слайдов
 		initialSlide:0,//с какого слайда начать
 		draggable:true,//движение с помощью мышки, когда false на телефоне можно
-		swipe: true,//движение с помощью мышки, когда false на телефоне нельзя
-		waitForAnimate:false,//если false переключает на каждый клик
+		swipe:true,//движение с помощью мышки, когда false на телефоне нельзя
+		waitForAnimate:true,//если false переключает на каждый клик
 	})
 });
