@@ -27,6 +27,7 @@
     color: #7a9eaf;
     background-color: white;
     margin: 0 auto;
+    outline: none;
   }
   .text {
     font-family: "Roboto Condensed";
@@ -52,16 +53,19 @@
     height: 9px;
     border: none;
     padding: 0;
+    outline: none;
   }
   .slider .slick-arrow.slick-prev {
     left: 0;
     background: url("../img/left.svg") no-repeat;
     padding-top: 30px;
+    outline: none;
   }
   .slider .slick-arrow.slick-next {
     right: 0;
     background: url("../img/right.svg") no-repeat;
     padding-top: 30px;
+    outline: none;
   }
   .slider__item {
     display: flex;
@@ -70,6 +74,7 @@
     width: 90px;
     height: 174px;
     margin: 0 40px;
+    outline: none;
   }
   .slider__item img {
     width: 100%;
@@ -102,6 +107,7 @@
     cursor: pointer;
     z-index: 1000;
     margin-top: 530px;
+    outline: none;
   }
   .red {
     background-color: #eda1ab;
