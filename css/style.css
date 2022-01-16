@@ -14,6 +14,10 @@ body {
     z-index: 1000;
   }
   .btn {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     border: 1px solid #7a9eaf;
     box-sizing: border-box;
     font-family: "Roboto Condensed";
@@ -22,7 +26,6 @@ body {
     font-weight: 400;
     color: #7a9eaf;
     background-color: white;
-    margin: 0 auto;
     outline: none;
   }
   .btn:active, :hover, :focus {
