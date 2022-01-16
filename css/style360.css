@@ -29,6 +29,10 @@
     margin: 0 auto;
     outline: none;
   }
+  .btn:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
   .text {
     font-family: "Roboto Condensed";
     font-style: normal;
@@ -55,6 +59,10 @@
     padding: 0;
     outline: none;
   }
+  .slider .slick-arrow:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
   .slider .slick-arrow.slick-prev {
     left: 0;
     background: url("../img/left.svg") no-repeat;
@@ -75,6 +83,10 @@
     height: 174px;
     margin: 0 40px;
     outline: none;
+  }
+  .slider__item:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
   }
   .slider__item img {
     width: 100%;
@@ -108,6 +120,10 @@
     z-index: 1000;
     margin-top: 530px;
     outline: none;
+  }
+  input[type="radio"]:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
   }
   .red {
     background-color: #eda1ab;
