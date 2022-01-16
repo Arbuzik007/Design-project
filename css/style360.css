@@ -27,7 +27,7 @@
     color: #7a9eaf;
     background-color: white;
     margin: 0 auto;
-    outline: none;
+    outline: white;
   }
   .btn:active, :hover, :focus {
     outline: 0;
