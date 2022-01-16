@@ -120,7 +120,6 @@
     z-index: 1000;
     margin-top: 530px;
     outline: none;
-    background: none;
   }
   input[type="radio"]:active, :hover, :focus {
     outline: 0;
