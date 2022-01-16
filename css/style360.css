@@ -27,7 +27,7 @@
     color: #7a9eaf;
     background-color: white;
     margin: 0 auto;
-    outline: white;
+    outline: none;
   }
   .btn:active, :hover, :focus {
     outline: 0;
@@ -120,6 +120,7 @@
     z-index: 1000;
     margin-top: 530px;
     outline: none;
+    background: none;
   }
   input[type="radio"]:active, :hover, :focus {
     outline: 0;
