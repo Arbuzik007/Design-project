@@ -9,6 +9,6 @@ $(document).ready(function(){
 		initialSlide:0,//с какого слайда начать
 		draggable:true,//движение с помощью мышки, когда false на телефоне можно
 		swipe: true,//движение с помощью мышки, когда false на телефоне нельзя
-		waitForAnimate:true,//если false переключает на каждый клик
+		waitForAnimate:false,//если false переключает на каждый клик
 	})
 });
