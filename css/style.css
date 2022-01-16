@@ -29,8 +29,8 @@ body {
     outline: none;
   }
   .btn:active {
-    color: #1f6383;
-    border: 2px solid #1f6383;
+    color: #4d859e;
+    border: 1px solid #4d859e;
   }
   .btn:active, :hover, :focus {
     outline: 0;
