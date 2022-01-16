@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px) {
+  .red {left: 36%;}
+  .orange {left: 40.7%;}
+  .yellow {left: 45.4%;}
+  .green {left: 49.7%;}
+  .blue {left: 54.3%;}
+  .purple {left: 59%;}
+}

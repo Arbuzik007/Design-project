@@ -1,0 +1,54 @@
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 350px;
+    height: 720px;
+  }
+  .wrapper_two {
+    width: 280px;
+    height: 550px;
+    padding-top: 170px;
+  }
+  .btn {
+    width: 254px;
+    height: 65px;
+    font-size: 28px;
+  }
+  .text {
+    font-size: 20px;
+    padding: 15px 35px 0px 35px;
+  }
+  .slider {
+    padding: 0 60px;
+  }
+  .slider .slick-arrow {
+    width: 20px;
+    height: 9px;
+    padding: 0;
+  }
+  .slider .slick-arrow.slick-prev {
+    padding-top: 30px;
+  }
+  .slider .slick-arrow.slick-next {
+    padding-top: 30px;
+  }
+  .slider__item {
+    width: 90px;
+    height: 174px;
+    margin: 0 40px;
+  }
+  .colors__text {
+    font-size: 20px;
+    padding-top: 25px;
+  }
+  input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    margin-top: 530px;
+  }
+  .red {left: 43%;}
+  .orange {left: 45.4%;}
+  .yellow {left: 47.6%;}
+  .green {left: 50%;}
+  .blue {left: 52.3%;}
+  .purple {left: 54.5%;}
+}
